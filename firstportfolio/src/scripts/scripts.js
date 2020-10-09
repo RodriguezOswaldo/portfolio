@@ -30,17 +30,5 @@ function setTheme(mode){
             document.getElementById('theme-style').href = '/firstportfolio/src/css/default.css';
             break;
     }
-    // if(mode == light){
-    //     document.getElementsById('theme-style').href = '/firstportfolio/src/css/default.css';
-    // }
-    // if(mode == purple){
-    //     document.getElementsById('theme-style').href = '/firstportfolio/src/css/purple.css';
-    // }
-    // if(mode == blue){
-    //     document.getElementsById('theme-style').href = '/firstportfolio/src/css/blue-dot.css';
-    // }
-    // if(mode == green){
-    //     document.getElementsById('theme-style').href = '/firstportfolio/src/css/green.css';
-    // }
 }
    
