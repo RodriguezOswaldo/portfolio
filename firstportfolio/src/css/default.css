@@ -216,6 +216,13 @@ box-shadow: 7px 10px 14px 0px rgba(0,0,0,0.75); */
 .about-wrapper{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    padding-bottom: 50px;
+    padding-top:50px;
+}
+#skills{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: var(--previewShadow);
 }
 @media screen and (max-width: 1200px){
     .main-container{
