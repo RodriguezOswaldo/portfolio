@@ -300,10 +300,16 @@ box-shadow: 7px 10px 14px 0px rgba(0,0,0,0.75); */
 }
 
 #skills {
+    margin-left: -20px;
     display: flex;
     justify-content: space-evenly;
     background-color: var(--previewShadow);
 }
+
+#skills>ul {
+    margin-left: -10px;
+}
+
 
 .social-links {
     display: grid;
@@ -415,7 +421,7 @@ box-shadow: 7px 10px 14px 0px rgba(0,0,0,0.75); */
 .submit-page {
     text-align: center;
     padding: 60px;
-    background-color: var(--borderColor);
+    background-color: var(--mainColor);
     border: 4px dashed rgb(170, 108, 15);
 }
 
