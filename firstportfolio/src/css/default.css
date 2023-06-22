@@ -407,9 +407,16 @@ box-shadow: 7px 10px 14px 0px rgba(0,0,0,0.75); */
     font-size: 14px;
 }
 
+.html {
+    background-color: var(--borderColor);
+
+}
+
 .submit-page {
     text-align: center;
     padding: 60px;
+    background-color: var(--borderColor);
+    border: 4px dashed rgb(170, 108, 15);
 }
 
 @media screen and (max-width: 1200px) {
